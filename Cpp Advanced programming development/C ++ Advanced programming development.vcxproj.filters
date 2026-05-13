@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="1.对象使用过程中背后调用了那些方法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2.总结三条对象优化的规则.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3.CMyString的代码问题与解决.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="4.CMyString在vector上的应用.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="5.智能指针.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="6.bind1st和bind2st.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="7.function 函数对象类型的应用示例.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="8.模板的完全特例化和部分特例化.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="9.function的实现原理.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="10.bind和functiopn实现线程池.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="11.lambda表达式的实现原理.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="12.lambda表达式的应用实践.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="13.C++11常用知识点整理总结.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="14.通过thread类编写C++多线程程序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="15.线程间互斥mutex互斥锁和lock_guard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="16.线程间同步通信生产者消费者模型.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="17.lock_guard和unique_lock总结.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="18.基于CAS操作的atomic原子类型.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="19.单例模式.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="20.线程安全的懒汉式单例模式.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="21.简单工厂和工厂方法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="22.抽象工厂.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="23.代理模式.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="24.装饰器模式.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="25.适配器模式.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="26.观察者模式.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="27.深度优先遍历搜索迷宫路径.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="35.C++11容器emplace方法原理.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="34.C++校招面经题目讲解.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="33.建议用make_shared代替shaerd_ptr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="28.广度优先遍历搜索迷宫路径.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="29.大数的加减法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="30.海量数据查重问题解决方案汇总.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="31.海量数据求top-k问题解决方案汇总.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="32.海量数据查重和top-k应用.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
