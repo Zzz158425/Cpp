@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="1.数据结构算法课程大纲.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2.数据结构算法复杂度介绍.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3.数组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="4.单向链表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="5.单向循环链表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="6.双向链表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="7.双向循环链表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="8.栈.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="9.队列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="10.二分搜索.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="11.冒泡排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="12.选择排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="13.插入排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="14.希尔排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="15.快速排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="16.归并排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="17.二叉堆.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="18.性能测试与排序算法常见问题.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="19.基数排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="20.线性探测哈希表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="21.链式哈希表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="22.哈希表应用.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="23.位图.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="24.布隆过滤器BloomFilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="25.top-k问题.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="27.一致性哈希算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="26.md5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="28.二叉树与BST树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="29.AVL树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="30.红黑树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="31.B树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="32.回溯算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="33.分治算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="34.动态规划算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="35.贪心算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="36.分支限界算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="37.BF算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="38.KMP算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="39.Trie字典树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="40.跳跃表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="41.倒排索引.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="42.哈夫曼树和哈夫曼编码.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="43.图.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="44.Dijkstra算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="46.并查集算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="47.Kruskal算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="45.Floyd算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\数据与结构施磊\教学图片\01_数组.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\数据与结构施磊\教学图片\02_链表.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\数据与结构施磊\教学图片\03_链表2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\数据与结构施磊\教学图片\04_栈.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\数据与结构施磊\教学图片\05_队列.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\数据与结构施磊\教学图片\06_二分搜索.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\数据与结构施磊\教学图片\07_基础排序.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\数据与结构施磊\教学图片\08_高级排序.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\数据与结构施磊\教学图片\09_堆排序.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\数据与结构施磊\教学图片\10_哈希表.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\数据与结构施磊\教学图片\11_大数据查重.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\数据与结构施磊\教学图片\12_大数据topk问题.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\数据与结构施磊\教学图片\13_一致性哈希算法.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\数据与结构施磊\教学图片\AVL树课堂讲解图例.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\数据与结构施磊\教学图片\BST树课堂讲解图例.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\数据与结构施磊\教学图片\B树.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\数据与结构施磊\教学图片\LCS最长公共子序列问题.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\数据与结构施磊\教学图片\RB树课堂讲解图例.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\数据与结构施磊\教学图片\Trie字典树.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\数据与结构施磊\教学图片\并查集.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\数据与结构施磊\教学图片\串操作算法.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\数据与结构施磊\教学图片\倒排索引.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\数据与结构施磊\教学图片\迪杰斯特拉算法.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\数据与结构施磊\教学图片\动态规划.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\数据与结构施磊\教学图片\分支限界算法.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\数据与结构施磊\教学图片\分治算法.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\数据与结构施磊\教学图片\复杂度指标对比.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\数据与结构施磊\教学图片\哈夫曼树和哈夫曼编码.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\数据与结构施磊\教学图片\排列树.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\数据与结构施磊\教学图片\跳跃表SkipList.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\数据与结构施磊\教学图片\图.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\数据与结构施磊\教学图片\中位数.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\数据与结构施磊\教学图片\子集树.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\数据与结构施磊\教学图片\Kruskal.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\数据与结构施磊\教学图片\Prim.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="md5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

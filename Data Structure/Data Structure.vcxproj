@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{16a0ced4-97d4-4f40-9d1b-bf87f6c78586}</ProjectGuid>
+    <RootNamespace>DataStructure</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <LanguageStandard>Default</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="1.数据结构算法课程大纲.cpp" />
+    <ClCompile Include="10.二分搜索.cpp" />
+    <ClCompile Include="11.冒泡排序.cpp" />
+    <ClCompile Include="12.选择排序.cpp" />
+    <ClCompile Include="13.插入排序.cpp" />
+    <ClCompile Include="14.希尔排序.cpp" />
+    <ClCompile Include="15.快速排序.cpp" />
+    <ClCompile Include="16.归并排序.cpp" />
+    <ClCompile Include="17.二叉堆.cpp" />
+    <ClCompile Include="18.性能测试与排序算法常见问题.cpp" />
+    <ClCompile Include="19.基数排序.cpp" />
+    <ClCompile Include="2.数据结构算法复杂度介绍.cpp" />
+    <ClCompile Include="20.线性探测哈希表.cpp" />
+    <ClCompile Include="21.链式哈希表.cpp" />
+    <ClCompile Include="22.哈希表应用.cpp" />
+    <ClCompile Include="23.位图.cpp" />
+    <ClCompile Include="25.top-k问题.cpp" />
+    <ClCompile Include="26.md5.cpp" />
+    <ClCompile Include="27.一致性哈希算法.cpp" />
+    <ClCompile Include="28.二叉树与BST树.cpp" />
+    <ClCompile Include="29.AVL树.cpp" />
+    <ClCompile Include="3.数组.cpp" />
+    <ClCompile Include="30.红黑树.cpp" />
+    <ClCompile Include="31.B树.cpp" />
+    <ClCompile Include="32.回溯算法.cpp" />
+    <ClCompile Include="33.分治算法.cpp" />
+    <ClCompile Include="34.动态规划算法.cpp" />
+    <ClCompile Include="35.贪心算法.cpp" />
+    <ClCompile Include="36.分支限界算法.cpp" />
+    <ClCompile Include="37.BF算法.cpp" />
+    <ClCompile Include="38.KMP算法.cpp" />
+    <ClCompile Include="39.Trie字典树.cpp" />
+    <ClCompile Include="4.单向链表.cpp" />
+    <ClCompile Include="40.跳跃表.cpp" />
+    <ClCompile Include="41.倒排索引.cpp" />
+    <ClCompile Include="42.哈夫曼树和哈夫曼编码.cpp" />
+    <ClCompile Include="43.图.cpp" />
+    <ClCompile Include="44.Dijkstra算法.cpp" />
+    <ClCompile Include="45.Floyd算法.cpp" />
+    <ClCompile Include="46.并查集算法.cpp" />
+    <ClCompile Include="47.Kruskal算法.cpp" />
+    <ClCompile Include="5.单向循环链表.cpp" />
+    <ClCompile Include="6.双向链表.cpp" />
+    <ClCompile Include="7.双向循环链表.cpp" />
+    <ClCompile Include="8.栈.cpp" />
+    <ClCompile Include="9.队列.cpp" />
+    <ClCompile Include="24.布隆过滤器BloomFilter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\数据与结构施磊\教学图片\01_数组.png" />
+    <Image Include="..\..\数据与结构施磊\教学图片\02_链表.png" />
+    <Image Include="..\..\数据与结构施磊\教学图片\03_链表2.png" />
+    <Image Include="..\..\数据与结构施磊\教学图片\04_栈.png" />
+    <Image Include="..\..\数据与结构施磊\教学图片\05_队列.png" />
+    <Image Include="..\..\数据与结构施磊\教学图片\06_二分搜索.png" />
+    <Image Include="..\..\数据与结构施磊\教学图片\07_基础排序.png" />
+    <Image Include="..\..\数据与结构施磊\教学图片\08_高级排序.png" />
+    <Image Include="..\..\数据与结构施磊\教学图片\09_堆排序.png" />
+    <Image Include="..\..\数据与结构施磊\教学图片\10_哈希表.png" />
+    <Image Include="..\..\数据与结构施磊\教学图片\11_大数据查重.png" />
+    <Image Include="..\..\数据与结构施磊\教学图片\12_大数据topk问题.png" />
+    <Image Include="..\..\数据与结构施磊\教学图片\13_一致性哈希算法.png" />
+    <Image Include="..\..\数据与结构施磊\教学图片\AVL树课堂讲解图例.png" />
+    <Image Include="..\..\数据与结构施磊\教学图片\BST树课堂讲解图例.png" />
+    <Image Include="..\..\数据与结构施磊\教学图片\B树.png" />
+    <Image Include="..\..\数据与结构施磊\教学图片\Kruskal.png" />
+    <Image Include="..\..\数据与结构施磊\教学图片\LCS最长公共子序列问题.png" />
+    <Image Include="..\..\数据与结构施磊\教学图片\Prim.png" />
+    <Image Include="..\..\数据与结构施磊\教学图片\RB树课堂讲解图例.png" />
+    <Image Include="..\..\数据与结构施磊\教学图片\Trie字典树.png" />
+    <Image Include="..\..\数据与结构施磊\教学图片\中位数.png" />
+    <Image Include="..\..\数据与结构施磊\教学图片\串操作算法.png" />
+    <Image Include="..\..\数据与结构施磊\教学图片\倒排索引.png" />
+    <Image Include="..\..\数据与结构施磊\教学图片\分支限界算法.png" />
+    <Image Include="..\..\数据与结构施磊\教学图片\分治算法.png" />
+    <Image Include="..\..\数据与结构施磊\教学图片\动态规划.png" />
+    <Image Include="..\..\数据与结构施磊\教学图片\哈夫曼树和哈夫曼编码.png" />
+    <Image Include="..\..\数据与结构施磊\教学图片\图.bmp" />
+    <Image Include="..\..\数据与结构施磊\教学图片\复杂度指标对比.png" />
+    <Image Include="..\..\数据与结构施磊\教学图片\子集树.png" />
+    <Image Include="..\..\数据与结构施磊\教学图片\并查集.png" />
+    <Image Include="..\..\数据与结构施磊\教学图片\排列树.png" />
+    <Image Include="..\..\数据与结构施磊\教学图片\跳跃表SkipList.bmp" />
+    <Image Include="..\..\数据与结构施磊\教学图片\迪杰斯特拉算法.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="md5.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
