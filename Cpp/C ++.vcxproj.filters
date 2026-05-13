@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="1.初识C++.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2.数据类型.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3.运算符.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="4.if switch 三目.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="5.while dowhile for .cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="6.break continue goto.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="7.数组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="8.函数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="9.指针.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="8.1.函数-函数分文件编写.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="10.结构体.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="11.程序内存模型.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="12.C++中的引用.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="13.函数高级.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="14.封装.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="14.1.封装-点.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="14.2.封装-圆.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="15.对象特性.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="16.友元.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="17.C++运算符重载.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="18.继承.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="19.多态.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="20.C++文件操作.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="21.模板.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="21.1.模板-类模板分文件编写.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="22.STL.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="22.String.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="23.Vector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="24.Deque.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="25.Stack Queue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="26.List.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="27.Set Multiset.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="28.Map Multimap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="29.函数对象.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="30.常用遍历与查找算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="31.常用排序、拷贝、替换、算术与集合算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="函数-函数分文件编写.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="封装-点.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="封装-圆.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="模板-类模板分文件编写.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="模板-类模板分文件编写.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="模板-数组类封装.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
